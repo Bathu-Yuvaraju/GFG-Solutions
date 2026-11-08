@@ -1,0 +1,8 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/next-greater-number-set-digits3503/1">Next Greater with Same Digits</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 18px;">Given a number n, find the smallest number that has the same set of digits as n and is greater than n. If n is the greatest possible number with its set of digits, return -1.</span></p><p><span style="font-size: 18px;"><strong>Examples :</strong></span></p><pre><span style="font-size: 18px;"><strong>Input: </strong>n = 143
+<strong>Output:</strong> 314
+<strong>Explanation</strong>: Numbers possible with digits 1, 3 and 4 are: 134, <strong>143</strong>, <strong>314</strong>, 341, 413, 431.
+The first greater number after 143 is 314.
+</span></pre><pre><span style="font-size: 18px;"><strong>Input</strong>: n = 431
+<strong>Output:</strong> -1
+<strong>Explanation</strong>: Numbers possible with digits 1, 3 and 4 are: 134, 143, 314, 341, 413, 431.
+Clearly, there's no number greater than 431.</span></pre></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Morgan Stanley</code>&nbsp;<code>Amazon</code>&nbsp;<code>Microsoft</code>&nbsp;<code>Samsung</code>&nbsp;<code>Snapdeal</code>&nbsp;<code>Hike</code>&nbsp;<code>Adobe</code>&nbsp;<code>Zillious</code>&nbsp;<code>Oxigen Wallet</code>&nbsp;<code>Vizury Interactive Solutions</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Searching</code>&nbsp;
