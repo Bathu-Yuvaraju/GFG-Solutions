@@ -1,0 +1,11 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/gf-series3535/1">Terms of Recursive Series</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 18px;">Geek made a special series that follows recurrence&nbsp; <strong>T<sub>n </sub>= (T<sub>n-2</sub>)<sup>2 </sup>- (T<sub>n-1</sub>)</strong>. The first (or </span><span style="font-size: 18px;">T<sub>1</sub>)<strong>&nbsp; </strong></span><span style="font-size: 18px;">and the second term&nbsp;</span><span style="font-size: 18px;">(or </span><span style="font-size: 18px;">T<sub>2</sub>)</span><span style="font-size: 18px;"> are 0 and 1 respectively.</span></p><p><span style="font-size: 18px;"> Given an integer <strong>n</strong>, return the first n terms of the series.<br></span></p><p><strong><span style="font-size: 18px;">Examples</span></strong></p><pre><strong><span style="font-size: 18px;">Input: </span></strong><span style="font-size: 18px;">n = 3</span>
+<strong><span style="font-size: 18px;">Output: </span></strong><span style="font-size: 18px;">[</span><span style="font-size: 18px;">0, 1, -1]</span>
+<strong><span style="font-size: 18px;">Explanation: </span></strong><span style="font-size: 18px;">First-term is given as 0 and the second term is 1. So the T<sub>3</sub> = (T<sub>3-2</sub>)<sup>2</sup> - (T<sub>3-1</sub>) = T<sub>1</sub><sup>2</sup> - T<sub>2</sub> = 0<sup>2</sup> - 1 = -1</span></pre><pre><strong><span style="font-size: 18px;">Input: </span></strong><span style="font-size: 18px;">n = 6</span>
+<strong><span style="font-size: 18px;">Output: </span></strong><span style="font-size: 18px;">[</span><span style="font-size: 18px;">0, 1, -1, 2, -1, 5]</span>
+<strong><span style="font-size: 18px;">Explanation:
+</span></strong><span style="font-size: 18px;">T<sub>1</sub> : 0
+T<sub>2</sub> : 1
+T<sub>3</sub> : -1
+T<sub>4</sub> = (1)<sup>2</sup> - (-1) = 2
+T<sub>5</sub> = (-1)<sup>2</sup> - (2) = 1 - 2 = -1
+T<sub>6</sub> = (2)<sup>2</sup> - (-1) = 4 + 1 = 5 </span></pre></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Mathematics</code>&nbsp;<code>Dynamic Programming</code>&nbsp;
