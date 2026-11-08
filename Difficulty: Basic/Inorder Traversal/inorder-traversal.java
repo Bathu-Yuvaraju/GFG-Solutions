@@ -1,0 +1,16 @@
+class Solution {
+    public ArrayList<Integer> inOrder(Node root) {
+        ArrayList<Integer> result = new ArrayList<>();
+        inorderTraversal(root, result);
+        return result;
+    }
+
+    private void inorderTraversal(Node node, ArrayList<Integer> result) {
+        if (node == null) {
+            return;
+        }
+        inorderTraversal(node.left, result);
+        result.add(node.data);
+        inorderTraversal(node.right, result);
+    }
+}
