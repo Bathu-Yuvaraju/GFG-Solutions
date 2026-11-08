@@ -1,0 +1,5 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/compute-sum-of-digits-in-all-numbers-from-1-to-n2855/1">Sum of Digits from 1 to n</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 18px;">Given an integer <strong>n</strong>, find the total <strong>sum</strong> of <strong>digits</strong> of all numbers from 1 to n.</span></p><p><span style="font-size: 18px;"><strong>Examples:</strong></span></p><pre><span style="font-size: 18px;"><strong>Input: </strong>n = 5<strong>
+Output: </strong>15<strong>
+Explanation: </strong>1 + 2 + 3 + 4 + 5 = 15</span></pre><pre><span style="font-size: 18px;"><strong>Input: </strong>n = 12<strong>
+Output: </strong>51<strong>
+Explanation: </strong>1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + (1 + 0) + (1 + 1) + (1 + 2) = 51</span></pre></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Dynamic Programming</code>&nbsp;
